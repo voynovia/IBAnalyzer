@@ -49,4 +49,8 @@ class DirectoryContentsEnumeratorTests: XCTestCase {
         let files = try! directoryEnumerator.files(at: URL(fileURLWithPath: "/incorrect/"))
         XCTAssertEqual(files, [])
     }
+
+    func testBreaksTravis() {
+        XCTFail()
+    }
 }
