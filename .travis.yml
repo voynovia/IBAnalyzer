@@ -1,4 +1,6 @@
 language: objective-c
 xcode_workspace: IBAnalyzer.xcworkspace
 xcode_scheme: IBAnalyzerTests
+before_install:
+  - pod repo update
 
